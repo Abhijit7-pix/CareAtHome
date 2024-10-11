@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CareAtHome"
         tools:targetApi="31">
-        <activity
-            android:name=".ParlorServicesActivity"
-            android:exported="false" />
+
         <activity
             android:name=".Appointment_Screen"
             android:exported="true" />
