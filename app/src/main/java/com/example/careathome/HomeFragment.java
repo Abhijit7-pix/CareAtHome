@@ -121,7 +121,7 @@ public class HomeFragment extends Fragment {
         });
 
         cardtransport.setOnClickListener(v -> {
-            Intent intent = new Intent(getContext(), Appointment_Screen.class);
+            Intent intent = new Intent(getContext(), Transport.class);
             intent.putExtra("serviceName", "Transportation");
             startActivity(intent);
         });
