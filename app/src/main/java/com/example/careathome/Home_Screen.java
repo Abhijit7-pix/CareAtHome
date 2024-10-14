@@ -11,7 +11,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Home_Screen extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class  Home_Screen extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     BottomNavigationView bottomNavigationView;
 
     @Override
