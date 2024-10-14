@@ -68,7 +68,8 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 // Handle About Us button click (e.g., navigate to About Us activity or show a dialog)
-                Toast.makeText(getActivity(), "About Us clicked", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(getActivity(), AboutUs.class);
+                startActivity(intent);
             }
         });
 
