@@ -1,59 +1,64 @@
 package com.example.careathome;
 
 public class Pojo {
-    private String firstNameEditText;
-    private String lastNameEditText;
-    private String addressEditText;
-    private String phoneNumberEditText;
 
-    public String getFirstNameEditText() {
-        return firstNameEditText;
+    private String firstname;
+    private String lastname;
+    private String address;
+    private String phoneNumber;
+    private String email;
+    private String password;
+
+    // Default constructor (required for Firebase)
+    public Pojo() {
     }
 
-    public void setFirstNameEditText(String firstNameEditText) {
-        this.firstNameEditText = firstNameEditText;
+    // Getters and setters
+    public String getFirstname() {
+        return firstname;
     }
 
-    public String getLastNameEditText() {
-        return lastNameEditText;
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
-    public void setLastNameEditText(String lastNameEditText) {
-        this.lastNameEditText = lastNameEditText;
+    public String getLastname() {
+        return lastname;
     }
 
-    public String getAddressEditText() {
-        return addressEditText;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
-    public void setAddressEditText(String addressEditText) {
-        this.addressEditText = addressEditText;
+    public String getAddress() {
+        return address;
     }
 
-    public String getPhoneNumberEditText() {
-        return phoneNumberEditText;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public void setPhoneNumberEditText(String phoneNumberEditText) {
-        this.phoneNumberEditText = phoneNumberEditText;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public String getEmailEditText() {
-        return emailEditText;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
-    public void setEmailEditText(String emailEditText) {
-        this.emailEditText = emailEditText;
+    public String getEmail() {
+        return email;
     }
 
-    public String getPasswordEditText() {
-        return passwordEditText;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public void setPasswordEditText(String passwordEditText) {
-        this.passwordEditText = passwordEditText;
+    public String getPassword() {
+        return password;
     }
 
-    private String emailEditText;
-    private String passwordEditText;
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

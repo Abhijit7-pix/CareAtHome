@@ -77,3 +77,9 @@ public class LoginActivity extends AppCompatActivity {
         finish(); // Optional: Finish the login activity to prevent going back to it
     }
 }
+
+
+
+
+
+
